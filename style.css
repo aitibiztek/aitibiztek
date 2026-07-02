@@ -714,6 +714,16 @@ h6 {
     align-items: center;
     overflow: hidden;
     padding-top: 80px;
+
+    /* Background Image */
+    background: linear-gradient(rgba(8, 18, 33, 0),
+            rgba(8, 18, 33, 0.75)),
+        url("images/takeoff.jpeg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 /* Hero Background */
