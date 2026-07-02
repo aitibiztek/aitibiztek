@@ -1,0 +1,1007 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="AITI BIZTEK — Engineering the Future of Aerospace Technology. Advanced Aerospace Software, Embedded Systems, AI Platforms, and Digital Engineering Solutions.">
+    <meta name="keywords" content="aerospace, engineering, embedded systems, AI, IoT, defense, aviation, AITI BIZTEK">
+    <meta name="author" content="AITI BIZTEK">
+    <title>AITI BIZTEK | Aerospace Technology & Engineering Solutions</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ============================================
+         PRELOADER
+    ============================================ -->
+    <div id="preloader">
+        <div class="preloader-inner">
+            <div class="preloader-ring"></div>
+            <div class="preloader-ring"></div>
+            <div class="preloader-ring"></div>
+            <span class="preloader-text">AITI BIZTEK</span>
+        </div>
+    </div>
+
+    <!-- ============================================
+         CUSTOM CURSOR
+    ============================================ -->
+    <div class="cursor-dot" id="cursorDot"></div>
+    <div class="cursor-outline" id="cursorOutline"></div>
+
+    <!-- ============================================
+         NAVBAR
+    ============================================ -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <!-- Logo -->
+            <a href="#home" class="nav-logo" id="navLogo">
+
+                <span class="logo-text">
+                    <span class="logo-main">AITIBIZTEK</span>
+                    <span class="logo-sub">ENGINEERING | TECHNOLOGY | INNOVATION</span>
+                </span>
+            </a>
+
+            <!-- Desktop Menu -->
+            <ul class="nav-menu" id="navMenu">
+                <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#solutions" class="nav-link">Solutions</a></li>
+                <li class="nav-item"><a href="#industries" class="nav-link">Industries</a></li>
+                <li class="nav-item"><a href="#products" class="nav-link">Products</a></li>
+                <li class="nav-item"><a href="#research" class="nav-link">Research</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+
+            <!-- CTA Button -->
+            <a href="#contact" class="nav-cta" id="navCta">
+                <span>Get Quote</span>
+                <i class="fas fa-arrow-right"></i>
+            </a>
+
+            <!-- Mobile Toggle -->
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span class="toggle-bar"></span>
+                <span class="toggle-bar"></span>
+                <span class="toggle-bar"></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu Overlay -->
+    <div class="mobile-menu-overlay" id="mobileMenuOverlay">
+        <div class="mobile-menu-content">
+            <ul class="mobile-nav-list">
+                <li><a href="#home" class="mobile-nav-link">Home</a></li>
+                <li><a href="#about" class="mobile-nav-link">About</a></li>
+                <li><a href="#solutions" class="mobile-nav-link">Solutions</a></li>
+                <li><a href="#industries" class="mobile-nav-link">Industries</a></li>
+                <li><a href="#products" class="mobile-nav-link">Products</a></li>
+                <li><a href="#research" class="mobile-nav-link">Research</a></li>
+                <li><a href="#contact" class="mobile-nav-link">Contact</a></li>
+            </ul>
+            <a href="#contact" class="mobile-cta-btn">Get Quote <i class="fas fa-arrow-right"></i></a>
+        </div>
+    </div>
+
+    <!-- ============================================
+         HERO SECTION
+    ============================================ -->
+    <section class="hero" id="home">
+        <!-- Animated Background Elements -->
+        <div class="hero-bg">
+            <div class="hero-grid"></div>
+            <div class="hero-radar">
+                <div class="radar-circle rc-1"></div>
+                <div class="radar-circle rc-2"></div>
+                <div class="radar-circle rc-3"></div>
+                <div class="radar-sweep"></div>
+            </div>
+            <div class="hero-particles" id="heroParticles"></div>
+            <div class="hero-circuit-lines">
+                <svg class="circuit-svg" viewBox="0 0 1920 1080" preserveAspectRatio="none">
+                    <path class="circuit-path cp-1" d="M0,540 Q480,200 960,540 T1920,540" />
+                    <path class="circuit-path cp-2" d="M0,300 Q480,600 960,300 T1920,300" />
+                    <path class="circuit-path cp-3" d="M0,780 Q480,400 960,780 T1920,780" />
+                </svg>
+            </div>
+            <div class="hero-gradient-overlay"></div>
+        </div>
+
+        <div class="hero-container">
+            <!-- Left Content -->
+            <div class="hero-content" id="heroContent">
+                <div class="hero-badge">
+                    <span class="badge-dot"></span>
+                    <span>Engineering Excellence for Tomorrow's Industries</span>
+                </div>
+                <h1 class="hero-title">
+                    Engineering the Future of <span class="text-gradient">Aerospace Technology</span>
+                </h1>
+                <p class="hero-description">
+                    AITI BIZTEK develops advanced Aerospace Software, Embedded Systems, Intelligent Hardware,
+                    Engineering Tools, Artificial Intelligence platforms, and Digital Engineering Solutions
+                    for Aerospace, Aviation, Defense, and Space industries.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#solutions" class="btn btn-primary">
+                        <span>Explore Solutions</span>
+                        <i class="fas fa-rocket"></i>
+                    </a>
+                    <a href="#contact" class="btn btn-outline">
+                        <span>Contact Us</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+
+            </div>
+
+            <!-- Right Visual -->
+
+        </div>
+
+        <!-- Scroll Indicator -->
+        <div class="scroll-indicator">
+            <div class="scroll-mouse">
+                <div class="scroll-wheel"></div>
+            </div>
+            <span>Scroll to explore</span>
+        </div>
+    </section>
+
+    <!-- ============================================
+         TRUSTED BY SECTION
+    ============================================ -->
+    <section class="trusted-section" id="trusted">
+        <div class="container">
+            <p class="trusted-heading">Trusted by Industry Leaders</p>
+            <div class="logo-marquee-wrapper">
+                <div class="logo-marquee" id="logoMarquee">
+                    <div class="logo-track">
+                        <div class="client-logo"><i class="fas fa-plane"></i><span>AeroSys Corp</span></div>
+                        <div class="client-logo"><i class="fas fa-satellite-dish"></i><span>SatLink Tech</span></div>
+                        <div class="client-logo"><i class="fas fa-shield-halved"></i><span>DefenTech</span></div>
+                        <div class="client-logo"><i class="fas fa-microchip"></i><span>ChipWorks</span></div>
+                        <div class="client-logo"><i class="fas fa-robot"></i><span>RoboSpace</span></div>
+                        <div class="client-logo"><i class="fas fa-rocket"></i><span>LaunchPad</span></div>
+                        <div class="client-logo"><i class="fas fa-globe"></i><span>GlobalDef</span></div>
+                        <div class="client-logo"><i class="fas fa-tower-broadcast"></i><span>SignalPro</span></div>
+                        <!-- Duplicated for seamless marquee -->
+                        <div class="client-logo"><i class="fas fa-plane"></i><span>AeroSys Corp</span></div>
+                        <div class="client-logo"><i class="fas fa-satellite-dish"></i><span>SatLink Tech</span></div>
+                        <div class="client-logo"><i class="fas fa-shield-halved"></i><span>DefenTech</span></div>
+                        <div class="client-logo"><i class="fas fa-microchip"></i><span>ChipWorks</span></div>
+                        <div class="client-logo"><i class="fas fa-robot"></i><span>RoboSpace</span></div>
+                        <div class="client-logo"><i class="fas fa-rocket"></i><span>LaunchPad</span></div>
+                        <div class="client-logo"><i class="fas fa-globe"></i><span>GlobalDef</span></div>
+                        <div class="client-logo"><i class="fas fa-tower-broadcast"></i><span>SignalPro</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         ABOUT SECTION
+    ============================================ -->
+    <section class="about-section section" id="about">
+        <div class="container">
+            <div class="about-grid">
+                <!-- Left: Visual -->
+                <!-- Right: Content -->
+                <div class="about-content" id="aboutContent">
+                    <span class="section-label">Who We Are</span>
+                    <h2 class="section-title">About <span class="text-gradient">AITI BIZTEK</span></h2>
+                    <p class="about-text">
+                        AITI BIZTEK is a technology and engineering solutions provider serving OEMs,
+                        manufacturing companies, aerospace industries, defense contractors, research
+                        institutions, and industrial enterprises. We specialize in delivering innovative,
+                        reliable, and scalable engineering solutions that support product development,
+                        manufacturing, automation, and digital transformation.
+                    </p>
+                    <p class="about-text">
+                        Our multidisciplinary team works closely with clients to design, develop, manufacture,
+                        and support high-performance products that meet demanding technical and commercial requirements.
+                    </p>
+
+                    <div class="mission-vision-grid">
+                        <div class="mv-card">
+                            <div class="mv-icon"><i class="fas fa-bullseye"></i></div>
+                            <h3>Our Mission</h3>
+                            <p>To deliver integrated engineering solutions that empower our clients to innovate faster,
+                                improve efficiency, and achieve sustainable growth through advanced technology.</p>
+                        </div>
+                        <div class="mv-card">
+                            <div class="mv-icon"><i class="fas fa-eye"></i></div>
+                            <h3>Our Vision</h3>
+                            <p>To be a globally recognized engineering partner, trusted for our expertise, innovation,
+                                and commitment to engineering excellence across all technology domains.</p>
+                        </div>
+                    </div>
+                    <div class="about-feature-image">
+                        <img src="images/industry.jpeg" alt="AITI BIZTEK Aerospace Engineering">
+                        <div class="feature-overlay">
+
+                        </div>
+                    </div>
+                    <a href="#solutions" class="btn btn-primary">
+                        <span>Read More</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- Decorative Shapes -->
+        <div class="section-decor">
+            <div class="decor-shape ds-1"></div>
+            <div class="decor-shape ds-2"></div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         SOLUTIONS SECTION
+    ============================================ -->
+    <section class="solutions-section section" id="solutions">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">What We Do</span>
+                <h2 class="section-title">Our <span class="text-gradient">Solutions</span></h2>
+                <p class="section-subtitle">We deliver integrated engineering solutions across multiple technology
+                    domains.</p>
+            </div>
+
+            <div class="solutions-grid">
+                <!-- Software Solutions -->
+                <div class="solution-card" id="solCard1">
+                    <div class="solution-card-glow"></div>
+                    <div class="solution-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <div class="solution-image-placeholder">
+                        <div class="sol-visual sv-software">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                    </div>
+                    <h3 class="solution-title">Software Solutions</h3>
+                    <p class="solution-desc">
+                        Enterprise Applications, Custom Software Development, Web & Mobile Applications,
+                        Cloud Solutions, API Development, and Digital Transformation services.
+                    </p>
+                    <ul class="solution-features">
+                        <li><i class="fas fa-check-circle"></i> Enterprise Applications</li>
+                        <li><i class="fas fa-check-circle"></i> Cloud & API Development</li>
+                        <li><i class="fas fa-check-circle"></i> Digital Transformation</li>
+                    </ul>
+                    <a href="#contact" class="solution-link">
+                        <span>Learn More</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <!-- Hardware Solutions -->
+                <div class="solution-card" id="solCard2">
+                    <div class="solution-card-glow"></div>
+                    <div class="solution-icon">
+                        <i class="fas fa-microchip"></i>
+                    </div>
+                    <div class="solution-image-placeholder">
+                        <div class="sol-visual sv-hardware">
+                            <i class="fas fa-microchip"></i>
+                        </div>
+                    </div>
+                    <h3 class="solution-title">Hardware & Embedded Systems</h3>
+                    <p class="solution-desc">
+                        PCB Design, Firmware Development, Embedded Linux, RTOS, ARM & STM32 Solutions,
+                        Electronic Product Development, and Prototype Hardware Design.
+                    </p>
+                    <ul class="solution-features">
+                        <li><i class="fas fa-check-circle"></i> PCB & Hardware Design</li>
+                        <li><i class="fas fa-check-circle"></i> Firmware & Embedded Linux</li>
+                        <li><i class="fas fa-check-circle"></i> Prototype Development</li>
+                    </ul>
+                    <a href="#contact" class="solution-link">
+                        <span>Learn More</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <!-- Engineering Tools -->
+                <div class="solution-card" id="solCard3">
+                    <div class="solution-card-glow"></div>
+                    <div class="solution-icon">
+                        <i class="fas fa-gears"></i>
+                    </div>
+                    <div class="solution-image-placeholder">
+                        <div class="sol-visual sv-engineering">
+                            <i class="fas fa-industry"></i>
+                        </div>
+                    </div>
+                    <h3 class="solution-title">Engineering & Automation</h3>
+                    <p class="solution-desc">
+                        Industrial Automation, PLC Programming, SCADA & HMI, Factory Automation,
+                        AI & IoT Solutions, CNC Machining, and Precision Manufacturing.
+                    </p>
+                    <ul class="solution-features">
+                        <li><i class="fas fa-check-circle"></i> Industrial Automation</li>
+                        <li><i class="fas fa-check-circle"></i> AI & IoT Integration</li>
+                        <li><i class="fas fa-check-circle"></i> Precision Manufacturing</li>
+                    </ul>
+                    <a href="#contact" class="solution-link">
+                        <span>Learn More</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         TECHNOLOGY STACK SECTION
+    ============================================ -->
+    <section class="technology-section section" id="technology">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Technology Stack</span>
+                <h2 class="section-title">Technologies We <span class="text-gradient">Master</span></h2>
+                <p class="section-subtitle">Leveraging cutting-edge technologies to deliver future-ready solutions.</p>
+            </div>
+
+            <div class="tech-grid" id="techGrid">
+                <div class="tech-card">
+                    <div class="tech-icon"><i class="fab fa-python"></i></div><span>Python</span>
+                </div>
+                <div class="tech-card">
+                    <div class="tech-icon"><i class="fas fa-c"></i></div><span>C</span>
+                </div>
+                <div class="tech-card">
+                    <div class="tech-icon"><i class="fas fa-code"></i></div><span>C++</span>
+                </div>
+                <div class="tech-card">
+                    <div class="tech-icon"><i class="fab fa-java"></i></div><span>Java</span>
+                </div>
+                <div class="tech-card">
+                    <div class="tech-icon"><i class="fab fa-linux"></i></div><span>Embedded Linux</span>
+                </div>
+                <div class="tech-card">
+                    <div class="tech-icon"><i class="fas fa-robot"></i></div><span>ROS</span>
+                </div>
+                <div class="tech-card">
+                    <div class="tech-icon"><i class="fas fa-window-maximize"></i></div><span>Qt</span>
+                </div>
+                <div class="tech-card">
+                    <div class="tech-icon"><i class="fas fa-calculator"></i></div><span>MATLAB</span>
+                </div>
+                <div class="tech-card">
+                    <div class="tech-icon"><i class="fas fa-chart-line"></i></div><span>Simulink</span>
+                </div>
+                <div class="tech-card">
+                    <div class="tech-icon"><i class="fas fa-microchip"></i></div><span>FPGA</span>
+                </div>
+                <div class="tech-card">
+                    <div class="tech-icon"><i class="fas fa-memory"></i></div><span>ARM</span>
+                </div>
+                <div class="tech-card">
+                    <div class="tech-icon"><i class="fas fa-microchip"></i></div><span>STM32</span>
+                </div>
+                <div class="tech-card">
+                    <div class="tech-icon"> <i class="fas fa-memory"></i></div><span>Jetson</span>
+                </div>
+                <div class="tech-card">
+                    <div class="tech-icon"><i class="fas fa-brain"></i></div><span>AI</span>
+                </div>
+                <div class="tech-card">
+                    <div class="tech-icon"><i class="fas fa-network-wired"></i></div><span>Machine Learning</span>
+                </div>
+                <div class="tech-card">
+                    <div class="tech-icon"><i class="fas fa-cloud"></i></div><span>Cloud</span>
+                </div>
+                <div class="tech-card">
+                    <div class="tech-icon"><i class="fas fa-wifi"></i></div><span>IoT</span>
+                </div>
+                <div class="tech-card">
+                    <div class="tech-icon"><i class="fas fa-vr-cardboard"></i></div><span>Digital Twin</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         INDUSTRIES SECTION
+    ============================================ -->
+    <section class="industries-section section" id="industries">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Industries We Serve</span>
+                <h2 class="section-title">Diverse <span class="text-gradient">Industries</span></h2>
+                <p class="section-subtitle">We support organizations across diverse industries with tailored engineering
+                    solutions.</p>
+            </div>
+
+            <div class="industries-timeline" id="industriesTimeline">
+                <div class="timeline-line"></div>
+
+                <div class="timeline-item ti-left">
+                    <div class="timeline-dot"><i class="fas fa-plane-up"></i></div>
+                    <div class="timeline-content">
+                        <h3>Aerospace</h3>
+                        <p>Flight systems, avionics, mission-critical software, and aerospace-grade engineering
+                            solutions for leading aerospace organizations.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item ti-right">
+                    <div class="timeline-dot"><i class="fas fa-shield-halved"></i></div>
+                    <div class="timeline-content">
+                        <h3>Defense</h3>
+                        <p>Secure communication systems, tactical software, defense electronics, and integrated defense
+                            technology platforms.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item ti-left">
+                    <div class="timeline-dot"><i class="fas fa-shuttle-space"></i></div>
+                    <div class="timeline-content">
+                        <h3>Space</h3>
+                        <p>Satellite systems, space mission planning, telemetry solutions, and advanced space technology
+                            development.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item ti-right">
+                    <div class="timeline-dot"><i class="fas fa-jet-fighter"></i></div>
+                    <div class="timeline-content">
+                        <h3>Aviation</h3>
+                        <p>Aircraft monitoring systems, aviation software, flight simulation, and next-generation
+                            aviation technology solutions.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item ti-left">
+                    <div class="timeline-dot"><i class="fas fa-industry"></i></div>
+                    <div class="timeline-content">
+                        <h3>Industrial Automation</h3>
+                        <p>PLC programming, SCADA systems, factory automation, Industry 4.0, and smart manufacturing
+                            solutions.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item ti-right">
+                    <div class="timeline-dot"><i class="fas fa-flask"></i></div>
+                    <div class="timeline-content">
+                        <h3>Research & Development</h3>
+                        <p>Advanced R&D support, prototype development, testing & validation, and technology innovation
+                            services.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item ti-left">
+                    <div class="timeline-dot"><i class="fas fa-bolt"></i></div>
+                    <div class="timeline-content">
+                        <h3>Electronics & Semiconductor</h3>
+                        <p>PCB design, electronic product development, semiconductor testing, and embedded hardware
+                            engineering.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         PRODUCTS SECTION
+    ============================================ -->
+    <section class="products-section section" id="products">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Our Products</span>
+                <h2 class="section-title">Innovative <span class="text-gradient">Products</span></h2>
+                <p class="section-subtitle">Engineered for performance, reliability, and mission-critical operations.
+                </p>
+            </div>
+
+            <div class="products-grid" id="productsGrid">
+                <div class="product-card">
+                    <div class="product-icon-wrap">
+                        <i class="fas fa-map-location-dot"></i>
+                    </div>
+                    <h3>Mission Planning Software</h3>
+                    <p>Advanced mission planning and execution platform for aerospace and defense operations with
+                        real-time analytics.</p>
+                    <div class="product-tags">
+                        <span>Aerospace</span><span>Defense</span>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-icon-wrap">
+                        <i class="fas fa-vr-cardboard"></i>
+                    </div>
+                    <h3>Simulation Platform</h3>
+                    <p>High-fidelity simulation and digital twin platform for system modeling, testing, and virtual
+                        verification.</p>
+                    <div class="product-tags">
+                        <span>Digital Twin</span><span>Testing</span>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-icon-wrap">
+                        <i class="fas fa-microchip"></i>
+                    </div>
+                    <h3>Embedded Controller</h3>
+                    <p>High-performance embedded controllers for real-time data processing, IoT integration, and
+                        industrial automation.</p>
+                    <div class="product-tags">
+                        <span>Embedded</span><span>IoT</span>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-icon-wrap">
+                        <i class="fas fa-satellite-dish"></i>
+                    </div>
+                    <h3>Telemetry System</h3>
+                    <p>Real-time telemetry acquisition, processing, and visualization system for aerospace and defense
+                        applications.</p>
+                    <div class="product-tags">
+                        <span>Telemetry</span><span>Real-time</span>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-icon-wrap">
+                        <i class="fas fa-memory"></i>
+                    </div>
+                    <h3>PCB Hardware</h3>
+                    <p>Custom-designed PCB hardware solutions for avionics, defense electronics, and industrial control
+                        systems.</p>
+                    <div class="product-tags">
+                        <span>Hardware</span><span>Electronics</span>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-icon-wrap">
+                        <i class="fas fa-toolbox"></i>
+                    </div>
+                    <h3>Engineering Toolkit</h3>
+                    <p>Comprehensive engineering tools for data analysis, system integration, prototyping, and rapid
+                        development.</p>
+                    <div class="product-tags">
+                        <span>Tools</span><span>Engineering</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         RESEARCH SECTION
+    ============================================ -->
+    <section class="research-section section" id="research">
+        <div class="research-bg">
+            <div class="research-stars" id="researchStars"></div>
+            <div class="research-gradient"></div>
+        </div>
+        <div class="container">
+            <div class="research-grid">
+                <div class="research-content" id="researchContent">
+                    <span class="section-label section-label-light">Innovation Lab</span>
+                    <h2 class="section-title section-title-light">Research & <span
+                            class="text-gradient">Innovation</span></h2>
+                    <p class="research-text">
+                        At AITI BIZTEK, we invest in cutting-edge research and development to push the boundaries
+                        of what's possible in aerospace technology. Our innovation lab explores emerging technologies
+                        including AI-driven flight systems, autonomous navigation, quantum computing applications,
+                        and next-generation materials science.
+                    </p>
+                    <div class="research-highlights">
+                        <div class="rh-item">
+                            <i class="fas fa-atom"></i>
+                            <span>Advanced Materials</span>
+                        </div>
+                        <div class="rh-item">
+                            <i class="fas fa-brain"></i>
+                            <span>AI Research</span>
+                        </div>
+                        <div class="rh-item">
+                            <i class="fas fa-satellite"></i>
+                            <span>Space Tech</span>
+                        </div>
+                    </div>
+                    <a href="#contact" class="btn btn-glow">
+                        <span>Partner With Us</span>
+                        <i class="fas fa-handshake"></i>
+                    </a>
+                </div>
+                <div class="research-visual" id="researchVisual">
+                    <div class="research-illustration">
+                        <div class="ri-rocket">
+                            <i class="fas fa-rocket"></i>
+                            <div class="rocket-trail"></div>
+                        </div>
+                        <div class="ri-satellite">
+                            <i class="fas fa-satellite"></i>
+                        </div>
+                        <div class="ri-planet">
+                            <div class="planet-body"></div>
+                            <div class="planet-ring"></div>
+                        </div>
+                        <div class="ri-star ri-s1"></div>
+                        <div class="ri-star ri-s2"></div>
+                        <div class="ri-star ri-s3"></div>
+                        <div class="ri-star ri-s4"></div>
+                        <div class="ri-star ri-s5"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         DEVELOPMENT PROCESS
+    ============================================ -->
+    <section class="process-section section" id="process">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Our Approach</span>
+                <h2 class="section-title">Development <span class="text-gradient">Process</span></h2>
+                <p class="section-subtitle">A structured approach from discovery to deployment and beyond.</p>
+            </div>
+
+            <div class="process-timeline" id="processTimeline">
+                <div class="process-line"></div>
+
+                <div class="process-step">
+                    <div class="step-number">01</div>
+                    <div class="step-icon"><i class="fas fa-search"></i></div>
+                    <h3>Discover</h3>
+                    <p>Understanding customer requirements and business objectives.</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">02</div>
+                    <div class="step-icon"><i class="fas fa-flask"></i></div>
+                    <h3>Research</h3>
+                    <p>Technical research and feasibility analysis.</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">03</div>
+                    <div class="step-icon"><i class="fas fa-pencil-ruler"></i></div>
+                    <h3>Design</h3>
+                    <p>Creating efficient engineering solutions using best practices.</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">04</div>
+                    <div class="step-icon"><i class="fas fa-code"></i></div>
+                    <h3>Develop</h3>
+                    <p>Building software, hardware, and automation systems.</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">05</div>
+                    <div class="step-icon"><i class="fas fa-vial"></i></div>
+                    <h3>Validate</h3>
+                    <p>Testing, quality assurance, and technical verification.</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">06</div>
+                    <div class="step-icon"><i class="fas fa-rocket"></i></div>
+                    <h3>Deploy</h3>
+                    <p>Deploying reliable solutions with complete documentation.</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">07</div>
+                    <div class="step-icon"><i class="fas fa-headset"></i></div>
+                    <h3>Support</h3>
+                    <p>Ongoing maintenance, upgrades, and engineering assistance.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         WHY CHOOSE US
+    ============================================ -->
+    <section class="why-section section" id="why">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Why AITI BIZTEK</span>
+                <h2 class="section-title">Why <span class="text-gradient">Choose Us</span></h2>
+                <p class="section-subtitle">Your trusted partner for integrated engineering excellence.</p>
+            </div>
+
+
+
+            <div class="why-features-grid">
+                <div class="why-feature">
+                    <div class="wf-icon"><i class="fas fa-cubes"></i></div>
+                    <h3>Integrated Engineering Expertise</h3>
+                    <p>A single partner for software, hardware, embedded systems, automation, and manufacturing.</p>
+                </div>
+                <div class="why-feature">
+                    <div class="wf-icon"><i class="fas fa-handshake"></i></div>
+                    <h3>Customer-Focused Collaboration</h3>
+                    <p>We work as an extension of your engineering team, ensuring solutions aligned with your goals.</p>
+                </div>
+                <div class="why-feature">
+                    <div class="wf-icon"><i class="fas fa-lightbulb"></i></div>
+                    <h3>Innovation & Technology</h3>
+                    <p>We leverage modern technologies to deliver scalable, future-ready solutions.</p>
+                </div>
+                <div class="why-feature">
+                    <div class="wf-icon"><i class="fas fa-medal"></i></div>
+                    <h3>Quality & Reliability</h3>
+                    <p>Our processes emphasize accuracy, consistency, and dependable project delivery.</p>
+                </div>
+                <div class="why-feature">
+                    <div class="wf-icon"><i class="fas fa-arrows-spin"></i></div>
+                    <h3>End-to-End Support</h3>
+                    <p>From design and development to manufacturing and post-deployment support.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         CASE STUDIES
+    ============================================ -->
+    <section class="cases-section section" id="cases">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Portfolio</span>
+                <h2 class="section-title">Case <span class="text-gradient">Studies</span></h2>
+                <p class="section-subtitle">Explore our impactful projects and engineering solutions.</p>
+            </div>
+
+            <div class="cases-grid" id="casesGrid">
+                <div class="case-card">
+                    <div class="case-overlay">
+                        <div class="case-icon"><i class="fas fa-plane-circle-check"></i></div>
+                    </div>
+                    <div class="case-content">
+                        <span class="case-tag">Aerospace</span>
+                        <h3>Aircraft Monitoring System</h3>
+                        <p>Real-time structural health monitoring system for commercial and military aircraft fleets.
+                        </p>
+                        <a href="#contact" class="case-link">View Details <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="case-card">
+                    <div class="case-overlay">
+                        <div class="case-icon"><i class="fas fa-map"></i></div>
+                    </div>
+                    <div class="case-content">
+                        <span class="case-tag">Defense</span>
+                        <h3>Mission Planning Platform</h3>
+                        <p>Comprehensive mission planning and execution system for defense operations with AI
+                            integration.</p>
+                        <a href="#contact" class="case-link">View Details <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="case-card">
+                    <div class="case-overlay">
+                        <div class="case-icon">
+                            <div class="product-icon-wrap">
+                                <i class="fas fa-brain"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="case-content">
+                        <span class="case-tag">AI & Analytics</span>
+                        <h3>AI-Powered Analytics</h3>
+                        <p>Machine learning analytics platform for predictive maintenance and operational intelligence.
+                        </p>
+                        <a href="#contact" class="case-link">View Details <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="case-card">
+                    <div class="case-overlay">
+                        <div class="case-icon"><i class="fas fa-microchip"></i></div>
+                    </div>
+                    <div class="case-content">
+                        <span class="case-tag">Embedded</span>
+                        <h3>Embedded Controller</h3>
+                        <p>Custom embedded controller for real-time process automation and industrial IoT integration.
+                        </p>
+                        <a href="#contact" class="case-link">View Details <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="case-card">
+                    <div class="case-overlay">
+                        <div class="case-icon"><i class="fas fa-satellite-dish"></i></div>
+                    </div>
+                    <div class="case-content">
+                        <span class="case-tag">Space</span>
+                        <h3>Satellite Communication</h3>
+                        <p>Satellite telemetry and communication system for LEO and GEO orbital operations.</p>
+                        <a href="#contact" class="case-link">View Details <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+    <!-- ============================================
+         CONTACT SECTION
+    ============================================ -->
+    <section class="contact-section section" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Get In Touch</span>
+                <h2 class="section-title">Let's Build the <span class="text-gradient">Future Together</span></h2>
+                <p class="section-subtitle">Whether you require engineering design, embedded systems, automation, or AI
+                    solutions, we're ready to help.</p>
+            </div>
+
+            <div class="contact-grid">
+
+                <!-- Left: Contact Details -->
+                <div class="contact-info" id="contactInfo">
+                    <div class="contact-details">
+
+                        <div class="contact-item">
+                            <div class="ci-icon"><i class="fas fa-building"></i></div>
+                            <div class="ci-text">
+                                <h4>Corporate Office</h4>
+                                <p>No:7, 8th E St, Kamaraj Nagar, Thiruvanmiyur, Chennai, Greater Chennai, Tamil Nadu
+                                    600041</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="ci-icon"><i class="fas fa-phone"></i></div>
+                            <div class="ci-text">
+                                <h4>Phone</h4>
+                                <p><a href="tel:+919003092317">+91 9003092317</a></p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="ci-icon"><i class="fas fa-envelope"></i></div>
+                            <div class="ci-text">
+                                <h4>General Enquiries</h4>
+                                <p><a href="mailto:info@aitibiztek.com">info@aitibiztek.com</a></p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="ci-icon"><i class="fas fa-briefcase"></i></div>
+                            <div class="ci-text">
+                                <h4>Business Enquiries</h4>
+                                <p><a href="mailto:sales@aitibiztek.com">sales@aitibiztek.com</a></p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="ci-icon"><i class="fas fa-globe"></i></div>
+                            <div class="ci-text">
+                                <h4>Website</h4>
+                                <p><a href="https://www.aitibiztek.in" target="_blank">www.aitibiztek.in</a></p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Right: Google Map -->
+                <div class="contact-map">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.345!2d80.2571!3d12.9835!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTLCsDU5JzAwLjYiTiA4MMKwMTUnMjUuNiJF!5e0!3m2!1sen!2sin!4v1234567890"
+                        width="100%" height="100%" style="border:0;" loading="lazy" allowfullscreen
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         FOOTER
+    ============================================ -->
+    <footer class="footer" id="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="footer-grid">
+                    <!-- Company Info -->
+                    <div class="footer-col footer-about">
+                        <a href="#home" class="footer-logo">
+                            <span class="logo-icon"><i class="fas fa-satellite"></i></span>
+                            <span class="logo-text">
+                                <span class="logo-main">AITI BIZTEK</span>
+                                <span class="logo-sub">ENGINEERING | TECHNOLOGY | INNOVATION</span>
+                            </span>
+                        </a>
+                        <p class="footer-desc">
+                            Delivering integrated engineering, software, hardware, automation, and precision
+                            manufacturing solutions for tomorrow's industries.
+                        </p>
+                        <div class="footer-social">
+                            <a href="https://www.linkedin.com/company/aiti-biztek/posts/?feedView=all"
+                                class="social-link" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- Quick Links -->
+                    <div class="footer-col">
+                        <h4>Quick Links</h4>
+                        <ul class="footer-links">
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#about">About Us</a></li>
+                            <li><a href="#solutions">Solutions</a></li>
+                            <li><a href="#industries">Industries</a></li>
+                            <li><a href="#products">Products</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Solutions -->
+                    <div class="footer-col">
+                        <h4>Solutions</h4>
+                        <ul class="footer-links">
+                            <li><a href="#solutions">Software Engineering</a></li>
+                            <li><a href="#solutions">Embedded Systems</a></li>
+                            <li><a href="#solutions">Industrial Automation</a></li>
+                            <li><a href="#solutions">AI & IoT</a></li>
+                            <li><a href="#solutions">Precision Manufacturing</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Newsletter -->
+
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer Bottom -->
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="footer-bottom-content">
+                    <p>&copy; 2025 AITI BIZTEK. All Rights Reserved.</p>
+                    <div class="footer-bottom-links">
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Terms of Service</a>
+                        <a href="#">Sitemap</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ============================================
+         BACK TO TOP
+    ============================================ -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+
+    <script defer src="script.js"></script>
+
+</body>
+
+</html>
