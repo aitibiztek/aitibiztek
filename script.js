@@ -122,6 +122,7 @@ if (mobileCTA) {
 
     });
 }
+
 // Update active navigation link
 function updateActiveNav() {
     const sections = document.querySelectorAll('section[id]');
